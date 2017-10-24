@@ -1,1 +1,1 @@
-/usr/bin/cc -g   CMakeFiles/os_project2A.dir/main.c.o  -o os_project2A 
+/usr/bin/cc -g   CMakeFiles/os_project2A.dir/main.c.o CMakeFiles/os_project2A.dir/source/part3/part3.c.o  -o os_project2A 

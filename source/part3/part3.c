@@ -1,3 +1,7 @@
+//
+// Created by rifatul on 10/24/17.
+//
+
 #include <stdio.h>
 #include <pthread.h>
 #include <stdlib.h>
@@ -28,10 +32,6 @@ int index = 0;
 int main(int argc, char *argv[]) {
     nthreads = atoi(argv[1]);
     pthread_t philosopherThread[nthreads];
-
-//    printf("Number of threads are %d\n", nthreads);
-
-//    printf("The number of %d chopstick.\n", (int) (sizeof(chopstick) / sizeof(pthread_mutex_t)));
 
     initMutex();
     createPhilosophers(philosopherThread);
@@ -79,7 +79,6 @@ void *runPhilosopher(void *nthread) {
 }
 
 void thinking(int threadIndex) {
-//    printf("I am philosopher %d and I am thinking now...\n", threadIndex);
     srandom((unsigned int) time(0));
     long time = random() % (500);
     usleep((__useconds_t) time);

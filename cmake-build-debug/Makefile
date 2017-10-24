@@ -150,6 +150,33 @@ main.c.s:
 	$(MAKE) -f CMakeFiles/os_project2A.dir/build.make CMakeFiles/os_project2A.dir/main.c.s
 .PHONY : main.c.s
 
+source/part3/part3.o: source/part3/part3.c.o
+
+.PHONY : source/part3/part3.o
+
+# target to build an object file
+source/part3/part3.c.o:
+	$(MAKE) -f CMakeFiles/os_project2A.dir/build.make CMakeFiles/os_project2A.dir/source/part3/part3.c.o
+.PHONY : source/part3/part3.c.o
+
+source/part3/part3.i: source/part3/part3.c.i
+
+.PHONY : source/part3/part3.i
+
+# target to preprocess a source file
+source/part3/part3.c.i:
+	$(MAKE) -f CMakeFiles/os_project2A.dir/build.make CMakeFiles/os_project2A.dir/source/part3/part3.c.i
+.PHONY : source/part3/part3.c.i
+
+source/part3/part3.s: source/part3/part3.c.s
+
+.PHONY : source/part3/part3.s
+
+# target to generate assembly for a file
+source/part3/part3.c.s:
+	$(MAKE) -f CMakeFiles/os_project2A.dir/build.make CMakeFiles/os_project2A.dir/source/part3/part3.c.s
+.PHONY : source/part3/part3.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,6 +189,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... source/part3/part3.o"
+	@echo "... source/part3/part3.i"
+	@echo "... source/part3/part3.s"
 .PHONY : help
 
 
