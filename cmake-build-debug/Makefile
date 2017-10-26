@@ -177,6 +177,33 @@ source/part3/part3.c.s:
 	$(MAKE) -f CMakeFiles/os_project2A.dir/build.make CMakeFiles/os_project2A.dir/source/part3/part3.c.s
 .PHONY : source/part3/part3.c.s
 
+source/part4/part4.o: source/part4/part4.c.o
+
+.PHONY : source/part4/part4.o
+
+# target to build an object file
+source/part4/part4.c.o:
+	$(MAKE) -f CMakeFiles/os_project2A.dir/build.make CMakeFiles/os_project2A.dir/source/part4/part4.c.o
+.PHONY : source/part4/part4.c.o
+
+source/part4/part4.i: source/part4/part4.c.i
+
+.PHONY : source/part4/part4.i
+
+# target to preprocess a source file
+source/part4/part4.c.i:
+	$(MAKE) -f CMakeFiles/os_project2A.dir/build.make CMakeFiles/os_project2A.dir/source/part4/part4.c.i
+.PHONY : source/part4/part4.c.i
+
+source/part4/part4.s: source/part4/part4.c.s
+
+.PHONY : source/part4/part4.s
+
+# target to generate assembly for a file
+source/part4/part4.c.s:
+	$(MAKE) -f CMakeFiles/os_project2A.dir/build.make CMakeFiles/os_project2A.dir/source/part4/part4.c.s
+.PHONY : source/part4/part4.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -192,6 +219,9 @@ help:
 	@echo "... source/part3/part3.o"
 	@echo "... source/part3/part3.i"
 	@echo "... source/part3/part3.s"
+	@echo "... source/part4/part4.o"
+	@echo "... source/part4/part4.i"
+	@echo "... source/part4/part4.s"
 .PHONY : help
 
 

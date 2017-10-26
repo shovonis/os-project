@@ -90,6 +90,9 @@
 		<Unit filename="/home/rifatul/projects/os-projects/os-project2A/source/part3/part3.c">
 			<Option target="os_project2A"/>
 		</Unit>
+		<Unit filename="/home/rifatul/projects/os-projects/os-project2A/source/part4/part4.c">
+			<Option target="os_project2A"/>
+		</Unit>
 		<Unit filename="/home/rifatul/projects/os-projects/os-project2A/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
